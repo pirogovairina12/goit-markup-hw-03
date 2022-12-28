@@ -1,7 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "Open Sans", sans-serif;
     background: #FFFFFF;
     color: rgba(0, 0, 0, 8);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
 }
 
 :root {
@@ -11,6 +35,13 @@ body {
 
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .list {
     list-style: none;
@@ -48,11 +79,12 @@ body {
     color: #FFFFFF;
     background: #4D5AE5;
     cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 170px;
     height: 51px;
     border: none;
+    margin: 24px 0 0 0;
 }
 
 .header-btn:hover {
@@ -95,9 +127,10 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin: 0 0 24px 0;
 }
 
-.hero-after{
+.hero-after {
     background-color: var(--our-team-bg-color);
 }
 
@@ -247,5 +280,166 @@ body {
     background: #FFFFFF;
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
+    width: 264px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
 
+.section {
+
+}
+
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 504px;
+}
+
+ul.hedear-list.list {
+    display: flex;
+    padding: 0;
+    width: 261px;
+    justify-content: space-around;
+}
+
+ul.header-nav.link.list {
+    display: flex;
+}
+
+.header-nav-email {
+    margin: 0 20px 0 0;
+}
+
+.header-nav-tel {
+    margin: 0 0 0 20px;
+}
+
+header.header {
+    padding: 24px 0 24px 0;
+    background: #FFFFFF;
+    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+ul.hero-list.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.hedear-logo {
+    margin: 0 77px 0 0;
+}
+
+ul.hero-pre-list.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+ul.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-after > .container {
+    padding: 120px 0 120px 0;
+}
+
+.hero-midlle > .container {
+    padding: 60px 0 120px 0;
+}
+
+
+.hero-skill > .container {
+    padding: 120px 0 60px 0;
+}
+
+ul.hero-list.list > li {
+    width: 264px;
+}
+
+h2.hero-pre-titel {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    padding: 0 0 72px 0;
+    margin: 0;
+}
+
+.footer > .container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 100px 0;
+}
+
+p.footer-text {
+    width: 264px;
+    margin: 16px 0 0 0;
+}
+
+p.hero-pro-titel {
+    margin: 4px 0 32px 0;
+}
+
+h3.hero-pri-titel {
+    margin: 32px 0 8px 0;
+}
+
+button.main-btn {
+    padding: 8px 16px;
+}
+
+ul.portfolio-list.list {
+    display: flex;
+    justify-content: space-between;
+    width: 586px;
+    margin: 96px auto 0 auto;
+}
+
+.list-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li.project-item {
+    margin: 40px 0px 80px 0px;
+    background: #FFFFFF;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+li.project-item:hover {
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+cursor: pointer;
+}
+
+h2.projects-title {
+    margin: 32px 16px 4px 16px;
+}
+p.projects-text {
+    margin: 4px 16px 32px 16px;
 }
