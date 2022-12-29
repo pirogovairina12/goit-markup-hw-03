@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     font-family: 'Roboto', sans-serif;
     background: var(--body-color);
     color: var(--body-text-color);
@@ -97,7 +97,7 @@ button.header-btn {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--body-color);
-    width: 492px;
+    width: 507px;
     margin: auto;
 }
 
