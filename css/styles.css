@@ -449,3 +449,7 @@ p.projects-text {
 .block-text{
     padding: 32px 16px;
 }
+
+section.portfolio {
+    margin: 0 0 120px 0;
+}
