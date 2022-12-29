@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 button.header-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -97,6 +97,8 @@ button.header-btn {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--body-color);
+    width: 492px;
+    margin: auto;
 }
 
 .hero-after {
@@ -172,6 +174,7 @@ button.header-btn {
 .hero {
     background-color: var(--hero-bg-color);
     text-align: center;
+    padding: 188px 0;
 }
 
 
@@ -181,7 +184,7 @@ button.header-btn {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--header-bg-color);
-    margin: 32px 0 4px 16px;
+    margin: 0 0 4px 0;
 }
 
 
@@ -191,7 +194,7 @@ button.header-btn {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--hero-text-color);
-    margin: 4px 0 32px 16px;
+    margin: 4px 0 0 0;
 }
 
 .hero-item {
@@ -274,64 +277,30 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none
 }
 
-
-
-
-.header-nav {
-}
-
-
-
 .hero-after {
     background-color: var(--our-team-bg-color);
 }
 
 
 
-
-/*-----------HERO-----------*/
-
-
-
-.hero {
-    background-color: var(--hero-bg-color);
-    text-align: center;
-
-}
-
-.hero-list {
-
-}
-
-
-
-
 /*3 homework*/
 
-.header > .container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hero > .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 200px 0;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 504px;
-}
+
 
 ul.hedear-list.list {
     display: flex;
     padding: 0;
     justify-content: space-around;
+    gap: 40px;
 }
 li.header-item {
-    padding: 24px 40px 245px 0;
+    padding: 24px 0 24px 0;
 }
 
 ul.header-nav.link.list {
@@ -339,15 +308,12 @@ ul.header-nav.link.list {
 }
 
 .header-nav-email {
-    margin: 0 20px 0 0;
+    margin: 0 40px 0 0;
 }
 
-.header-nav-tel {
-    margin: 0 0 0 20px;
-}
+
 
 header.header {
-    padding: 24px 0 24px 0;
     background: var(--body-color);
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -370,7 +336,7 @@ a.hedear-logo {
 
 ul.hero-pre-list.list {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
     padding: 0;
 }
 
@@ -383,18 +349,23 @@ ul.team-list {
     padding: 120px 0 120px 0;
 }
 
-.hero-midlle > .container {
-    padding: 60px 0 120px 0;
+.hero-midlle {
+    padding: 0 0 120px 0;
 }
 
 
-.hero-skill > .container {
-    padding: 120px 0 60px 0;
+.hero-skill  {
+    padding: 120px 0 120px 0;
 }
 
-/*ul.hero-list.list > li {*/
-/*    width: 264px;*/
-/*}*/
+.hero-pre-titel{
+    margin: 0 0 8px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-bg-color);
+}
 
 h2.hero-pre-titel {
     font-weight: 600;
@@ -406,7 +377,7 @@ h2.hero-pre-titel {
 }
 
 
-.footer > .container {
+.footer {
     display: flex;
     flex-direction: column;
     padding: 100px 0 100px 0;
@@ -417,12 +388,9 @@ p.footer-text {
     margin: 16px 0 0 0;
 }
 
-p.hero-pro-titel {
-    margin: 4px 0 32px 0;
-}
 
 h3.hero-pri-titel {
-    margin: 32px 0 8px 0;
+    margin: 0 0 8px 0;
 }
 
 button.main-btn {
@@ -460,8 +428,28 @@ p.projects-text {
 
 .project-list {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 .project-list > li {
     width: 264px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-text{
+    padding: 38px 16px;
+}
+
+
+.our-team-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.block-text{
+    padding: 32px 16px;
 }
