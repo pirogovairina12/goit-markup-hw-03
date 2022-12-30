@@ -199,8 +199,6 @@ button.header-btn {
 
 .hero-item {
     cursor: pointer;
-    margin: 40px 6px 40px 6px;
-    border: 0.5px solid var(--our-team-bg-color);
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -316,8 +314,9 @@ header.header {
 
 ul.hero-list.list {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 48px 24px;
+    margin: 0 0 120px 0;
 }
 
 nav.header-navigation {
@@ -395,10 +394,12 @@ button.main-btn {
 
 ul.portfolio-list.list {
     display: flex;
-    justify-content: space-between;
-    width: 586px;
-    margin: 96px auto 0 auto;
+    justify-content: center;
+    margin: 0 auto 72px auto;
+    gap: 24px;
+
 }
+
 
 .list-projects {
     display: flex;
@@ -436,7 +437,7 @@ p.projects-text {
 }
 
 .our-team-text{
-    padding: 38px 16px;
+    padding: 38px 0;
 }
 
 
@@ -448,8 +449,9 @@ p.projects-text {
 
 .block-text{
     padding: 32px 16px;
+    border: 0.5px solid var(--our-team-bg-color);
 }
 
 section.portfolio {
-    margin: 0 0 120px 0;
+    margin: 96px 0 120px 0;
 }
