@@ -316,7 +316,6 @@ ul.hero-list.list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    margin: 0 0 120px 0;
 }
 
 nav.header-navigation {
