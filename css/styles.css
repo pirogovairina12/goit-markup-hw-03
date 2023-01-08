@@ -452,5 +452,6 @@ p.projects-text {
 }
 
 section.portfolio {
-    margin: 96px 0 120px 0;
+    padding-top: 96px;
+    padding-bottom:120px;
 }
